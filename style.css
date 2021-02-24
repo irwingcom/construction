@@ -1,0 +1,64 @@
+body {
+    background: url(/about/img/starbackground.png);
+    animation: slide 40s linear infinite;
+}
+nav {
+    background-color: #333131;
+}
+a {
+    text-decoration: none;
+    color: #EBEBE3;
+}
+a:hover {
+    color: #ff0505;
+}
+.cat {
+    padding-top: 10px;
+}
+footer {
+    background-color: #333131;
+}
+.logoexp {
+    color: #ff0505;
+}
+.para {
+    text-align: center;
+}
+h1 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Spartan', sans-serif;
+}
+
+h3 {
+    font-family: 'Source Code Pro', monospace;  
+    color: #C3ADAD;  
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+    color: #af9b9b;
+}
+
+.rotate {
+    animation: rotation 8s infinite;
+  }
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(30deg);
+    }
+    
+    
+  }
+
+@keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: 0 500px; }
+}

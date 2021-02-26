@@ -27,22 +27,25 @@ footer {
 .para {
     text-align: center;
 }
+a {
+    font-family: 'Michroma', sans-serif;
+}
 h1 {
-    font-family: 'Spartan', sans-serif;
-    font-size: 60px;
+    font-family: 'Michroma', sans-serif;
 }
 
 h2 {
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Michroma', sans-serif;
+    color: #fff;
 }
 
 h3 {
-    font-family: 'Source Code Pro', monospace;  
+    font-family: 'Michroma', sans-serif;
     color: #C3ADAD;  
 }
 
 p {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Jura', sans-serif;
     color: #af9b9b;
 }
 
